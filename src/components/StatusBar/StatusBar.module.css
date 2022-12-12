@@ -1,0 +1,23 @@
+.statusBar__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  border-radius: 20px 20px 0 0;
+  background-color: white;
+}
+
+.statusBar__content-time {
+  margin-left: 21px;
+}
+
+.statusBar__content-info {
+  margin: 14px;
+  width: 68px;
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

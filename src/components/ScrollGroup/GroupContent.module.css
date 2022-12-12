@@ -1,0 +1,79 @@
+.groupContent {
+  height: 357px;
+  display: flex;
+  flex-direction: column;
+
+  width: 375px;
+  overflow: overlay;
+  background-color: white;
+}
+
+.groupContent__title {
+  padding-left: 37px;
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+  text-transform: uppercase;
+  color: #818c99;
+  height: 36px;
+  margin-top: 4px;
+  background-color: white;
+}
+
+.groupContent__scroll {
+  padding: 10px 16px;
+  background-color: white;
+}
+
+.groupContent__scroll img {
+  width: 80px;
+  height: 80px;
+}
+
+.groupContent__cardList {
+  width: 106px;
+  height: 144px;
+  margin-bottom: 10px;
+  font-family: "SF Pro Display", serif;
+}
+
+.blur {
+  filter: blur(3px);
+}
+
+.groupContent__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.groupContent__card-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.154px;
+  color: #000000;
+  padding: 2px 6px 0;
+}
+
+.groupContent__card-cost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 6px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+  color: #818c99;
+}
+
+.groupContent__card-cost span img {
+  height: 11px;
+  width: 11px;
+}

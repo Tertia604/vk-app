@@ -1,0 +1,63 @@
+.container {
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: white;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 52px;
+  align-items: center;
+}
+
+.header__content-info {
+  width: 88px;
+  height: 32px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  padding: 6px 16px 6px 7px;
+  justify-content: space-between;
+  position: relative;
+  color: white;
+}
+
+.header__content-info span img {
+  position: absolute;
+  top: 6px;
+  height: 20px;
+  width: 20px;
+}
+
+.header__content-title {
+  font-family: "VK Sans Display", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.header__content-btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__btn-right {
+  border-radius: 0 10px 10px 0;
+}
+.header__btn-left {
+  border-radius: 10px 0 0 10px;
+}
+
+.header__btn-right,
+.header__btn-left {
+  background: rgba(40, 43, 46, 0.2);
+  width: 44px;
+  height: 32px;
+  border: 0;
+  cursor: pointer;
+  backdrop-filter: blur(16px);
+}

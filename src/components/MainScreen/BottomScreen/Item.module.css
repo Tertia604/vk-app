@@ -1,0 +1,25 @@
+.item {
+  background: rgba(0, 28, 61, 0.05);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.41px;
+  padding: 10px 20px;
+  color: #2688eb;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 0;
+}
+
+.test {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.41px;
+  padding: 10px 20px;
+  background: #2688eb;
+  color: white;
+  border-radius: 20px;
+}
